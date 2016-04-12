@@ -17,7 +17,8 @@ Redirect uri must be **http://<edx_url>/auth/complete/wp-oauth2/**
     "FEATURES" : {
         ...
         "ENABLE_COMBINED_LOGIN_REGISTRATION": true,
-        "ENABLE_THIRD_PARTY_AUTH": true
+        "ENABLE_THIRD_PARTY_AUTH": true,
+        "WP_PRIVIDER_URL": "<URL OF YOUR SSO>"
     }
     ...
     "THIRD_PARTY_AUTH_BACKENDS":["edx_wp_oauth_client.backends.wp_oauth_client.WPOAuthBackend"]

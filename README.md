@@ -2,7 +2,7 @@
 SSO Client for [Wordpress OAuth plugin provider][wp_oauth_provider].
 ### Instalation guide
  - Install  WP plugin following instruction. In wp-admin OAuth Server tab add new client.
-Redirect uri must be **http://<edx_url>/auth/complete/wp-oauth2/**
+Redirect uri must be **http://edx_url/auth/complete/wp-oauth2/**
 
  - Install this client
    ```
@@ -106,4 +106,4 @@ Redirect uri must be **http://<edx_url>/auth/complete/wp-oauth2/**
 **Note.** If you work on local devstack. Inside your edx’s vagrant in /etc/hosts add a row with your machines’s IP  and wordpress’s >vhost. For example:
 ```192.168.0.197 wp.local```
 
-[wp_oauth_provider]: <https://ru.wordpress.org/plugins/oauth2-provider/>
+[wp_oauth_provider]: <https://wordpress.org/plugins/oauth2-provider/>
